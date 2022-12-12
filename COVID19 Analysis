@@ -8,7 +8,7 @@ FROM `covid19-deaths-and-vac.covid19_vac.covid_vac`
 	
 CREATE TABLE covid19_vac.vaccines AS (
 SELECT iso_code,continent, location, date, new_tests, total_tests, total_tests_per_thousand, new_tests_per_thousand, new_tests_smoothed, new_tests_smoothed_per_thousand, positive_rate, tests_per_case, tests_units, total_vaccinations, people_vaccinated, people_fully_vaccinated, new_vaccinations, new_vaccinations_smoothed, total_vaccinations_per_hundred, people_vaccinated_per_hundred, people_fully_vaccinated_per_hundred, total_boosters_per_hundred
-FROM `covid19-deaths-and-vac.covid19_vac.covid_vac`
+FROM `covid19-deaths-and-vac.covid19_vac.covid_vac'
 )
 
 -- Looking at total cases vs total deaths // death %
